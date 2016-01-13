@@ -19,11 +19,12 @@
     <a class="navbar-brand" href="#"> Web development </a> 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-      	<li><a href="#"> / Blog / </a></li>
-        <li><a href="#"> / About / </a></li>
-        <li><a href="#"> / Drop me a line / </a></li>
-      </ul>
+      <div class="col-xs-7">
+        <ul class="nav navbar-nav navbar-right">
+          <%= link_to 'About', '#', :class => 'btn btn-warning btn-md' %>
+          <%= link_to 'Drop a line', '#', :class => 'btn btn-warning btn-md' %>
+        </ul>
+      </div>  
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

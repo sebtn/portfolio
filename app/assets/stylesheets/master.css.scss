@@ -1,7 +1,7 @@
 .navbar-inverse .navbar-brand{
   font-family: 'sf_speakeasyregular';
-  color: #F5F2A2;
-  font-size: 50px;
+  color: #EC971F;
+  font-size: 40px;
   
 }
 
@@ -9,7 +9,7 @@
     color: #E3DE42;
     padding-top:15px;
     font-size: 20px;
-    margin-right: 25px;
+    margin-right: 35px;
    
 }
 
@@ -17,14 +17,15 @@
 	  background:rgba(0,0,0, 0.0);
 	  border:0px;
 	  border-radius: 0;
-    padding-top:10px;
-    height: 75px;
-    margin-left: 35px;
+    padding-top:45px;
+    height: 95px;
+    
+   
  }   
 
 .hero {
 	background: url('cat-obscured.jpg') no-repeat center fixed;
-	height: 1080px;
+	height: 800px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -42,7 +43,7 @@
 }
 
 .ghosty {
-	margin-top: 175px;
+	margin-top: 375px;
 	background:rgba(0,0,0, 0.25);
   color:white;
   padding-bottom: 15px;
@@ -68,10 +69,14 @@
 
 .btn {
     padding: 14px 24px;
-    border: 0 none;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    border-radius:0px;
+    background: none;
+    padding: 12px 22px;
+    border: 0px solid #ff4296;
+    color: #ff4296;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {
@@ -79,29 +84,17 @@
 }
  
 .btn-primary {
-    background: #0099cc;
-    color: #ffffff;
+    
+    color: #ff4296;
 }
  
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: #ff4296;
+    border-color: #ff4296;
 }
  
 .btn-primary:active, .btn-primary.active {
-    background: #007299;
+    background: #ff4296;
+    color: #f42969;
     box-shadow: none;
 }
-
-.btn.outline {
-    background: none;
-    padding: 12px 22px;
-}
-
-.btn-primary.outline {
-    border: 2px solid #0099cc;
-    color: #0099cc;
-}
-
-
-
-
