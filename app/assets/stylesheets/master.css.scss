@@ -1,30 +1,22 @@
-.navbar-inverse .navbar-logo{
-	padding-top: -10px;
-}
-
 .navbar-inverse .navbar-brand{
   font-family: 'sf_speakeasyregular';
   color: #EC971F;
-  font-size: 40px;
-  
+  font-size: 48px;  
 }
 
 .navbar .nav > li > a {
     color: #E3DE42;
     padding-top:15px;
     font-size: 20px;
-    margin-right: 35px;
-   
 }
 
 .navbar.navbar-inverse {
 	  background:rgba(0,0,0, 0.0);
 	  border:0px;
 	  border-radius: 0;
-    padding-top:35px;
     height: 90px;  
-    padding-bottom: 20px;
- }   
+    padding-top:40px;
+}   
 
 .hero {
 	background: url('cat-obscured.jpg') no-repeat center fixed;
@@ -87,7 +79,6 @@
 }
  
 .btn-primary {
-    
     color: #ff4296;
 }
  
