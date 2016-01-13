@@ -1,0 +1,49 @@
+.navbar-inverse .navbar-brand{
+  font-family:'sf_speakeasyoblique';
+  color: #F5F2A2;
+  font-size: 50px;
+  
+}
+
+.navbar .nav > li > a {
+    color: #E3DE42;
+    padding-top:15px;
+    font-size: 20px;
+    margin-right: 25px;
+   
+}
+
+.navbar.navbar-inverse {
+	  background:rgba(0,0,0, 0.0);
+	  border:0px;
+	  border-radius: 0;
+    padding-top:10px;
+    height: 75px;
+    margin-left: 35px;
+ }   
+
+.hero {
+	background: url('cat-obscured.jpg') no-repeat center fixed;
+	height: 1080px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus { 
+	color: #FF4296;
+}
+
+.navbar-inverse .navbar-brand .navbar-logo:hover,
+.navbar-inverse .navbar-brand .navbar-logo:focus { 
+	color: #FF4296;
+}
+
+
+.navbar .brand, 
+.navbar .nav > li > a:hover {
+    color: #E34297;
+}
+
