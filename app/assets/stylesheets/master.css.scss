@@ -1,31 +1,44 @@
-.navbar-inverse .navbar-brand{
-  font-family: 'sf_speakeasyregular';
-  color: #EC971F;
-  font-size: 48px;  
-}
-
-.navbar .nav > li > a {
-    color: #E3DE42;
-    padding-top:15px;
-    font-size: 20px;
-}
-
-.navbar.navbar-inverse {
-	  background:rgba(0,0,0, 0.0);
-	  border:0px;
-	  border-radius: 0;
-    height: 90px;  
-    padding-top:40px;
-}   
-
-.hero {
+header {
 	background: url('cat-obscured.jpg') no-repeat center fixed;
-	height: 800px;
+	height: 750px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
   background-size: cover;
 }
+
+.navbar-inverse {
+	padding-left: 65px;
+	padding-top: 25px;
+}
+
+.navbar-inverse .navbar-brand{
+  font-family: 'sf_speakeasyregular';
+  color: #EC971F;
+  font-size: 20px;
+    
+}
+.navbar-inverse .navbar-logo{
+	border: 0px solid #ff4296;
+	
+}
+
+.navbar .nav > li > a {
+    color: #E3DE42;
+    padding-top:15px;
+    font-size: 15px;
+}
+
+a {
+	margin-left:10px;
+}
+
+.navbar.navbar-inverse {
+		background-color: transparent;
+	  border:0px;
+	  border-radius: 0;  
+    padding-top:40px;
+} 
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus { 

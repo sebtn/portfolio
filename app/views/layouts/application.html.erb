@@ -7,34 +7,33 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body id="skrollr-body">
-  	<!-- navbar begins here -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
+<body>
+
+<header>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <div class="navbar-logo">
-          <%= image_tag 'laid-cat.png', class: 'img-responsive'%>
-        </div>  	
-    </div>
-    <a class="navbar-brand" href="#"> W e b - D e v e l o p m e n t </a> 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">   
-        <ul class="nav navbar-nav navbar-right">
-          <%= link_to 'About', '#', :class => 'btn btn-warning btn-md' %>
-          <%= link_to 'Drop a line', '#', :class => 'btn btn-warning btn-md' %>
+      <div class="navbar-logo">
+        <%= image_tag 'laid-cat.png', class: 'img-responsive'%>
+      </div>    
+      <a class="navbar-brand" href="#"> W e b - D e v e l o p m e n t </a> 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">   
+        <ul class="nav navbar-nav col-sm-5 navbar-right">
+          <%= link_to 'About', '#', :class => 'btn btn-warning btn-lg' %>
+          <%= link_to 'Work', '#', :class => 'btn btn-warning btn-lg' %>
+          <%= link_to 'Drop a line', '#', :class => 'btn btn-warning btn-lg' %>
         </ul>    
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+
+
+
+
 
 
 <%= yield %>
 
-<script type="text/javascript" src="skrollr"></script>
-  <script type="text/javascript">
-  var s = skrollr.init({forceHeight: false});
-  </script>
 </body>
-
 </html>
