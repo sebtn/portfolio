@@ -10,15 +10,21 @@
 <body>
 
 <header>
-  <nav class="navbar navbar-inverse" role="navigation">
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container-fluid"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-logo">
-        <%= image_tag 'laid-cat.png', class: 'img-responsive'%>
-      </div>    
-      <a class="navbar-brand" href="#"> W e b - D e v e l o p m e n t </a> 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">   
-        <ul class="nav navbar-nav col-sm-5 navbar-right">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <!-- Brand and toggle get grouped for better mobile display -->           
+        <div class="navbar-logo pull-left">
+          <%= image_tag 'laid-cat.png', :class => 'img-responsive'%>
+          <a class="navbar-brand" href="#"> W e b - D e v e l o p m e n t </a> 
+       </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">   
+        <ul class="nav navbar-nav navbar-right">
           <%= link_to 'About', '#', :class => 'btn btn-warning btn-lg' %>
           <%= link_to 'Work', '#', :class => 'btn btn-warning btn-lg' %>
           <%= link_to 'Drop a line', '#', :class => 'btn btn-warning btn-lg' %>
@@ -28,12 +34,28 @@
   </nav>
 </header>
 
-
-
-
-
-
 <%= yield %>
+<!--footer starts here -->
+<div class="clr"></div>
+
+
+<footer>
+  <div class="container narrow row-fluid">
+    <%= image_tag 'laid-cat.png', :class => 'img-responsive pull-left'%>
+    <div class="col-xs-12 col-sm-3">
+      <%= link_to 'About', '#', :class => 'btn btn-warning btn-sm pull-left' %>
+      <%= link_to 'Drop a line', '#', :class => 'btn btn-warning btn-sm pull-left' %>
+    </div>  
+    <div class="col-xs-12 col-sm-3">
+      <br />
+      <%= link_to '#' do %>
+        <%= image_tag 'github.png', :class => 'social-button' %>
+      <% end %>
+      <%= image_tag 'gmail.png', :class => 'social-button' %>  
+    </div> 
+  </div>  
+</footer>  
+
 
 </body>
 </html>
