@@ -1,10 +1,14 @@
 html, body {
     margin:0;
     padding:0;
+    -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	  background-size: cover;
 }
 
 header {
-	background: url('cat-obscured.jpg') no-repeat center fixed;
+	background: url('51H.jpg') no-repeat center fixed;
 	height: 750px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -20,12 +24,11 @@ header {
 
 .navbar-inverse .navbar-brand{
   font-family: 'sf_speakeasyregular';
-  color: #EC971F;
-  font-size: 20px;
+	color: #fff;
+  font-size: 40px;
     
 }
 .navbar-inverse .navbar-logo{
-	border: 0px solid #ff4296;
 	float: left;
 	
 }
@@ -37,7 +40,7 @@ header {
 }
 
 a {
-	margin-left:10px;
+	margin-left:15px;
 }
 
 p { 
@@ -62,13 +65,14 @@ p {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	 background: #ff4296;
-   border-color: #ff4296;
+	 background:#31B0D5;
+   border-color: #31B0D5;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus { 
-	color: #FF4296;
+	color: #E6E6E6;
+
 }
 
 .navbar .brand, 
@@ -76,6 +80,30 @@ p {
     color: #E34297;
 }
 
+.jumbotron{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  margin-top: 7%
+}
+
+.jumbotron h1 {
+		font-family: 'blackjackregular';
+		font-size: 125px;
+		text-shadow: 5px 5px #000000;
+		text-transform: -45deg;
+}
+
+.jumbotron span {
+	font-size: 35px;
+	font-style: bold;
+	text-shadow: 1px 1px #000000;
+}
+
+.jumbotron h2 {
+	font-size: 45px;
+	text-shadow: 1px 1px #000000;
+}
 
 .ghosty-1 {
 	margin-top: 35px;
@@ -105,7 +133,7 @@ footer {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background: url('cat-obscured.jpg') no-repeat center fixed;
+	background: url('51H.jpg') no-repeat center fixed;
 	background-size: cover;
 }
 
@@ -132,8 +160,8 @@ footer {
     border-radius:0px;
     background: none;
     padding: 12px 22px;
-    border: 0px solid #ff4296;
-    color: #ff4296;
+    border: 1px solid #fff;
+    color: #fff;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {
@@ -141,16 +169,16 @@ footer {
 }
  
 .btn-primary {
-    color: #ff4296;
+    color: #31B0D5;
 }
  
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #ff4296;
-    border-color: #ff4296;
+    background: #31B0D5;
+    border-color: #31B0D5;
 }
  
 .btn-primary:active, .btn-primary.active {
-    background: #ff4296;
-    color: #f42969;
+    background: #31B0D5;
+    color: #31B0D5;
     box-shadow: none;
 }
