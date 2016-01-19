@@ -26,10 +26,15 @@ header {
   font-family: 'sf_speakeasyregular';
 	color: #fff;
   font-size: 40px;
-    
 }
+
+#navbar-collapse{
+	border-color: rgba(0,0,0, 0);
+}
+
 .navbar-inverse .navbar-logo{
-	float: left;
+	padding-left: 75px;
+	padding-top: 15px;
 	
 }
 
@@ -67,6 +72,8 @@ p {
 .navbar-inverse .navbar-toggle:focus {
 	 background:#31B0D5;
    border-color: #31B0D5;
+   border: 0px solid #fff;
+
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -84,7 +91,7 @@ p {
   background-color: transparent;
   color: white;
   text-align: center;
-  margin-top: 7%
+  margin-top: 8%
 }
 
 .jumbotron h1 {
