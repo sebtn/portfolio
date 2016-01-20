@@ -35,6 +35,7 @@ header {
 .navbar-inverse .navbar-logo{
 	padding-left: 75px;
 	padding-top: 15px;
+	size: 35px;
 	
 }
 
@@ -49,11 +50,10 @@ a {
 }
 
 p { 
-	padding: 50px;
-	font-size: 32px;
-	font-weight: bold;
-	text-align: center;
-	background: #dbdfe5;
+	font-size: 18px;
+	font-style: sans-serif;	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
 }
 
 .navbar.navbar-inverse {
@@ -129,7 +129,7 @@ p {
 }
 
 
-footer {
+#footer {
 	height:150px;
 	color:white;
 	background-color: rgba(36,32,33,0.9);
@@ -140,8 +140,22 @@ footer {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background: url('51H.jpg') no-repeat center fixed;
+	/*background: url('51H.jpg') no-repeat center fixed;*/
 	background-size: cover;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+.social-button {
+  width: 42px;
+  margin: 4px;
 }
 
 .clr{

@@ -26,7 +26,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    autoprefixer-rails (6.2.3)
+    autoprefixer-rails (6.3.1)
       execjs
       json
     bootstrap-sass (3.3.5.1)
@@ -50,6 +50,8 @@ GEM
     jquery-rails (3.1.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery-ui-rails (5.0.5)
+      railties (>= 3.2.16)
     json (1.8.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -75,7 +77,7 @@ GEM
       activesupport (= 4.0.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.4.2)
+    rake (10.5.0)
     rdoc (4.2.1)
       json (~> 1.4)
     sass (3.4.21)
@@ -116,6 +118,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  jquery-ui-rails
   pg
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)

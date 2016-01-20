@@ -32,6 +32,8 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 gem 'sprockets', '2.11.0'
 
+gem 'jquery-ui-rails'
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
