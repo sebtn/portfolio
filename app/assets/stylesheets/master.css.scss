@@ -5,6 +5,7 @@ html, body {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 	  background-size: cover;
+	  height: 100%;
 }
 
 header {
@@ -50,7 +51,7 @@ a {
 }
 
 p { 
-	font-size: 22px;
+	font-size: 26px;
 	font-style: sans-serif;	
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 100;
@@ -64,34 +65,25 @@ p {
 } 
 
 .navbar-inverse .navbar-toggle {
-	background-color: transparent;
+	background-color: #616161;
 	border:0px;
+	background: none;
 }
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	 background:#31B0D5;
-   border-color: #31B0D5;
+	 background:#616161;
+   border-color: #616161;
    border: 0px solid #fff;
 
 }
 
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus { 
-	color: #E6E6E6;
-
-}
-
-.navbar .brand, 
-.navbar .nav > li > a:hover {
-    color: #E34297;
-}
 
 .jumbotron{
   background-color: transparent;
   color: white;
   text-align: center;
-  margin-top: 8%
+  margin-top: 0%
 }
 
 .jumbotron h1 {
@@ -112,29 +104,26 @@ p {
 	text-shadow: 1px 1px #000000;
 }
 
-.ghosty-1 {
-	margin-top: 35px;
-	background:rgba(0,0,0, 0.25);
-  color:white;
-  padding-bottom: 15px;
-  padding-top: 10px;
+.photo-of-me {
+	text-align: center;
 }
 
-.ghosty-2 {
-	margin-top: 35px;
-	background:rgba(0,0,0, 0.25);
-  color:white;
-  padding-bottom: 15px;
-  padding-top: 10px;
+#skills {
+	text-align: center;
+}
+
+.about {
+	text-align: center;
+	padding: 0 50px;
 }
 
 
 #footer {
-	height:150px;
+	height:350px;
 	color:white;
 	background-color: rgba(36,32,33,0.9);
 	font-family:"Helvetica Neue", Helvetica;
-	padding:10px 0px;
+	padding-top: 25px;
 	margin-top:30px;
 	font-weight:100;
 	-webkit-background-size: cover;
@@ -142,35 +131,24 @@ p {
 	-o-background-size: cover;
 	/*background: url('51H.jpg') no-repeat center fixed;*/
 	background-size: cover;
-}
-
-#wrap {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
+	overflow: hidden;
 }
 
 .social-button {
-  width: 42px;
-  margin: 4px;
+  width: 45px;
+  margin: 7px;
+}
+
+.section-2 {
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 25px;
 }
 
 .clr{
     width:100%;
     height:0px;
     clear:both;
-}
-
-.box {
-  -moz-box-shadow: 0px 0px 0px 0 #d0d0d0;
-  -webkit-box-shadow: 0px 0px 0px 0 #d0d0d0;
-  box-shadow: 0px 0px 0px 0 #d0d0d0;
-  background:rgba(0,0,0, 0.25);
-  padding-bottom: 15px;
-  padding-top: 10px;
 }
 
 .btn {
@@ -183,6 +161,7 @@ p {
     padding: 12px 22px;
     border: 1px solid #fff;
     color: #fff;
+    margin-bottom: 5px;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {

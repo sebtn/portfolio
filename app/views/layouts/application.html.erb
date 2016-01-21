@@ -10,98 +10,91 @@
 </head>
 <body>
 
-<div id="wrap">
-  <header>
-    <nav class="navbar navbar-inverse navbar-top" role="navigation">
-      <div class="container-fluid"> 
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <!-- Brand and toggle get grouped for better mobile display -->           
-          <div class="navbar-logo pull-left">
-            <%= image_tag 'web2.png', :class => 'img-responsive'%> 
-            <!--a class="navbar-brand" href="#"> W e b - D e v e l o p m e n t </a> -->
-         </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">   
-          <ul class="nav navbar-nav navbar-right">
-            <%= link_to 'About', 'about', :class => 'btn btn-sm' %>
-            <%= link_to 'Work', '#', :class => 'btn btn btn-sm' %>
-            <%= link_to 'Drop a line', '#', :class => 'btn btn-default btn-sm' %>
-          </ul>    
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <div class="jumbotron">
-      <div class="container">
-      <h1>
-        I'm Seb
-      </h1> 
-      <br />
-      <h2> Full stack web developer </h2>
-        <span> Interactive web apps builder </span>
-     </div> 
-    </div> 
-  </header>
+
+<header>
+  <nav class="navbar navbar-inverse navbar-top" role="navigation">
+    <div class="container-fluid"> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">   
+        <ul class="nav navbar-nav navbar-right">
+          <%= link_to 'About', '#about', :class => 'btn btn-default btn-sm' %>
+          <%= link_to 'Work', '#', :class => 'btn btn-default btn-sm' %>
+          <%= link_to 'Drop a line', '#drop a line', :class => 'btn btn-default btn-sm' %>
+        </ul>    
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="jumbotron">
+    <div class="container col-sm-12 col-xs-12">
+    <h1>
+      I'm Seb
+    </h1> 
+    <br />
+    <h2> Full stack web developer </h2>
+      <i><span> Web application buildier </span></i>
+   </div> 
+  </div> 
+</header>
 
   <br style="clr">
 
-  <section class="members-section col-sm-12 col-xs-12">
-    <div class="row">
-      <div class="col-sm-5 col-xs-10 col-xs-offset-1">
-        <br />
-        <div class="col-sm-4 col-xs-12 Seb">
-          <div class="pickgradient orange">
-            <img alt="cat" class="img-responsive img-circle" src="assets/laid-cat.png">
-          </div>  
-        </div> 
-      <div class="col-sm-8 col-xs-12" id="about">
-        <h3>Seb</h3>
-        <p>Full stack developer, some programming languages in my belt are: CSS, HTML  Ruby, R, and JQuery. I'm a music lover, beer drinker, number cruncher, film marathonist and cat friendly. 
-        Love to build incredible apps and to persuit awesomeness...</p>    
-      </div> 
+<section class="about col-sm-12 col-xs-12" id="about">
+<br />
+  <div class="col-xs-10 col-sm-8 col-sm-offset-2 Seb">
+    <div class="photo-of-me">
+      <img alt="cat" class="img-responsive img-thumbnail" src="assets/laid-cat.png">
     </div>  
-  </section>  
+  </div> 
+  <div class="col-xs-10 col-sm-8 col-sm-offset-2"> 
+    <h3>Seb</h3>
+      <p>Full stack developer, some programming languages in my belt are: CSS, HTML  Ruby, R, and JQuery. I'm a music lover, beer drinker, number cruncher, film marathonist and cat friendly. 
+      Love to build incredible apps and to persuit awesomeness...</p>    
+  </div>    
+  <br />
+  <div class="skills col-xs-10 col-sm-8 col-sm-offset-2"> 
+    <h3>Skills</h3>
+      <p>...</p>    
+  </div>  
+</section>  
 
 
   <%= yield %>
   <!--footer starts here -->
   <div class="clr"></div>
 
+<div id="footer">
+  <br />   
+  <form class="col-xs-5 col-xs-offset-1 form-horizontal">
+    <fieldset>
+        <div class="form-group" id="drop a line"> 
+          <br /> 
+          <label class="control-label" for"textarea">DROP ME A LINE</label><br /> 
+          <textarea class="form-control" id="textarea" name="textarea" rows="5" >...</textarea>
+        </div>    
+        <div class="form-group"> <!-- Button -->
+          <label class="control-label" for="Sen email"></label>
+            <button id="Sen email" name="Sen email" class="btn btn-default btn-xs pull left">Send</button>
+        </div>
+    </fieldset>
+  </form>
 
-</div>
-
-  <div id="footer">
-    <div class="container">
-      <div class="col-xs-6 col-sm-3">
-        <b>Check Me Out</b>
-        <br />
-        <br />
-        <%= link_to 'About', '#', :class => 'btn btn-xs pull-left' %>
-        <%= link_to 'Work', '#', :class => 'btn btn btn-xs' %>
-      </div>
-      <div class="col-xs-6 col-sm-3 pull-right">
-        <b>Contact</b>
-        <br />
-        tonomudo@gmail.com
-        <br />
-        Montreal, QC
-        <br />
-        H3X 2B5
-      </div>
-      <div class="col-xs-6 col-sm-3 pull-right">
-        <b>Social</b>
-        <br />
-        <br />
-        <%= image_tag 'github.png', class: 'social-button' %>
-        <%= image_tag 'gmail.png', class: 'social-button' %>
-      </div>
-    </div>
-  </div> 
-
-
+  <div class="col-xs-5 section-2">
+      <br />
+      <%= link_to 'About', '#about', :class => 'btn btn-default btn-xs' %>
+      <%= link_to 'Work', '#', :class => 'btn btn-default btn-xs' %>
+      <br />
+      <br />
+      <br />
+      <%= image_tag 'github.png', class: 'social-button' %>
+      <%= image_tag 'gmail.png', class: 'social-button' %>
+      <br />
+ </div>  
+</div>  
 
 <script>
 
