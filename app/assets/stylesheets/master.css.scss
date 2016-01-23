@@ -18,33 +18,16 @@ header {
 }
 
 .navbar-inverse {
-	padding-left: 55px;
-	padding-top: 25px;
-	padding-right: 45px;
+	padding-left: 45px;
+	padding-right: 65px;
 }
 
-.navbar-inverse .navbar-brand{
-  font-family: 'sf_speakeasyregular';
-	color: #fff;
-  font-size: 40px;
-}
 
 #navbar-collapse{
-	border-color: rgba(0,0,0, 0);
+	border-color: #fff;
+
 }
 
-.navbar-inverse .navbar-logo{
-	padding-left: 75px;
-	padding-top: 15px;
-	size: 35px;
-	
-}
-
-.navbar .nav > li > a {
-    color: #E3DE42;
-    padding-top:15px;
-    font-size: 15px;
-}
 
 a {
 	margin-left:15px;
@@ -61,23 +44,30 @@ p {
 		background-color: transparent;
 	  border:0px;
 	  border-radius: 0;  
-    padding-top:40px;
+    padding-top:35px;
 } 
 
+.navbar-toggle {
+	float: none;
+	background: transparent;
+}
+
 .navbar-inverse .navbar-toggle {
-	background-color: #616161;
+	background-color: transparent;
 	border:0px;
 	background: none;
+
+
 }
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	 background:#616161;
+	 background:transparent;
    border-color: #616161;
-   border: 0px solid #fff;
+   border: 1px solid #fff;
+   border-radius: 0px;
 
 }
-
 
 .jumbotron {
   background-color: transparent;
@@ -129,7 +119,7 @@ p {
 
 
 #footer {
-	height:350px;
+	height:400px;
 	color:white;
 	background-color: rgba(36,32,33,0.9);
 	font-family:"Helvetica Neue", Helvetica;
@@ -192,3 +182,36 @@ p {
     color: #31B0D5;
     box-shadow: none;
 }
+
+.btn-1 {
+    padding: 14px 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius:0px;
+    background: none;
+    padding: 12px 22px;
+    border: 0px solid #fff;
+    color: #fff;
+    margin-bottom: 5px;
+}
+ 
+.btn-1:focus, .btn-1:active:focus, .btn-1.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-1-primary {
+    color: #31B0D5;
+}
+ 
+.btn-1-primary:hover, .btn-1-primary:focus, .btn-1-primary:active, .btn-1-primary.active, .open > .dropdown-toggle.btn-1-primary {
+    background: #31B0D5;
+    border-color: #31B0D5;
+}
+ 
+.btn-1-primary:active, .btn-1-primary.active {
+    background: #31B0D5;
+    color: #31B0D5;
+    box-shadow: none;
+}
+
