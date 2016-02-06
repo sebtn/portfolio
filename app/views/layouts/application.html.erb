@@ -30,7 +30,7 @@
   </nav>
   <div class="jumbotron">
     <div class="container col-sm-12 col-xs-12">
-    <h1>Sebastian Bedout
+    <h1>Sebastian B
     <br />Full Stack Developer </h1>
    </div> 
   </div> 
@@ -47,7 +47,7 @@
   <div class="col-xs-10 col-sm-8 col-sm-offset-2"> 
     <h3>Seb</h3>
       <p>Freelance Full Stack Web Developer.
-      I can help you develop your business needs producing solid, responsive and interactive front and server end solutions. 
+      I can help you develop your business needs producing solid, responsive and interactive front and server end solutions. <br />
       I have a experience building and improving apps by making UI and UX friendlier and more fluid, I'm capable to produce simple yet powerful back end server solutions.
       <br />
       Please feel free to contact me, I can answer all your questions @ e-mail.</p>    
@@ -102,11 +102,21 @@
             <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>  
         </div>
        </div> 
-  </div>      
+  </div>  
+
+<br />
+<div class="clearfix"></div>
+<br />    
+
 </section>  
 
+<section class="gallery col-sm-12 col-xs-12" id="gallery">
 
 
+
+
+</section>
+  
 
   <%= yield %>
   <!--footer starts here -->
@@ -114,36 +124,47 @@
 <br />
 <br />
 <div id="footer">
+ <div class="container"> 
+  <h2> CONTACT ME </h2>
   <br />   
-  <form class="col-xs-5 col-xs-offset-1 form-horizontal">
+  <form class="col-xs-12 col-sm-6 form-horizontal">
     <fieldset>
         <div class="form-group" id="drop a line"> 
-          <br /> 
-          <label class="control-label" for"textarea">DROP ME A LINE</label><br /> 
+          <label class="control-label" for"textarea"></label><br /> 
+          <br />
           <textarea class="form-control" id="textarea" name="textarea" rows="1" >Your name</textarea>
           <br /> 
           <textarea class="form-control" id="textarea" name="textarea" rows="1" >Your email</textarea>
           <br /> 
-          <textarea class="form-control" id="textarea" name="textarea" rows="5" >I'll be happy to answer all your questions, just use the box to contact me.</textarea>
+          <textarea class="form-control" id="textarea" name="textarea" rows="5" >I'll be happy to answer all your questions, just use this box to contact me.</textarea>
         </div>    
         <div class="form-group"> <!-- Button -->
-          <label class="control-label" for="Sen email"></label>
-            <button id="Sen email" name="Sen email" class="btn btn-default btn-xs pull-right">Send</button>
+          <label class="control-label" for="Send email"></label>
+            <button id="Send email" name="Send email" class="btn-2 btn-default btn-xs pull-right">Send</button>
         </div>
     </fieldset>
   </form>
 
-  <div class="col-xs-5 section-2">
+    <div class="esquina col-xs-12 col-sm-5 col-sm-offset-1">
       <br />
-      <%= link_to 'About', '#about', :class => 'btn btn-default btn-xs' %>
-      <%= link_to 'Work', '#', :class => 'btn btn-default btn-xs' %>
-      <br />
+      <span>Feel free to <b>ASK</b> me
       <br />
       <br />
-      <%= image_tag 'github.png', class: 'social-button' %>
-      <%= image_tag 'gmail.png', class: 'social-button' %>
- </div>  
-</div>  
+      E-mail: coustum@mail.com
+      <br />
+      Address: Montreal, Quebec, Canada
+      <br />
+      <br />
+      <b>Social:</b>
+      <br /></span>
+      <%= image_tag 'github.png', :class => 'social-button' %>
+      <%= image_tag 'gmail.png', :class => 'social-button' %>
+    </div>
+  </div>  
+ </div>   
+</div> 
+  
+
 
 <script>
 

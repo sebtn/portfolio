@@ -34,6 +34,10 @@ p {
 	font-weight: 100;
 }
 
+h2 {
+	text-align: center;
+}
+
 .navbar.navbar-inverse {
 	background-color: transparent;
   border:0px; 
@@ -96,13 +100,11 @@ p {
 
 
 #footer {
-	height:400px;
+	height:675px;
 	color:white;
 	background-color: rgba(36,32,33,0.9);
 	font-family:"Helvetica Neue", Helvetica;
-	padding-top: 25px;
-	margin-top:30px;
-	padding-bottom: 25px;
+	padding-top: 20px;
 	font-weight:100;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -112,14 +114,8 @@ p {
 }
 
 .social-button {
-  width: 45px;
-  margin: 7px;
-}
-
-.section-2 {
-	text-align: right;
-	padding-right: 25px;
-	padding-top: 25px;
+	width: 25px;
+	margin:5px;
 }
 
 .clr{
@@ -128,20 +124,30 @@ p {
   clear:both;
 }
 
-.btn {
-	padding: 14px 24px;
+.esquina {
+	padding-top: 15px;
+	
+}
+
+.esquina span {
+	font-size: 18px
+}
+
+.btn-2 {
+	padding: 10px 15px 10px 15px;
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	border-radius:0px;
 	background: none;
 	border: 1px solid #fff;
-	color: #fff;
-	margin-bottom: 5px;
-	 
+	color: #fff; 
+	width: 120px;
+	display: block;
 }
  
 .btn-1 {
+	padding: 14px 24px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -158,6 +164,8 @@ p {
 	font-size: 1.15em;
 }  
  
+ 
+
 
  
 
