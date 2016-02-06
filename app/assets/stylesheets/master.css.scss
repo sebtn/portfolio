@@ -163,6 +163,18 @@ h2 {
 	letter-spacing: 5px;
 	font-size: 1.15em;
 }  
+
+.row [class*="-6"] {
+   /* the following is just used to show grid*/
+	background-color:#eee;
+}
+
+
+.no-gutter {
+	padding-left:0;
+	padding-right:0;
+}
+
  
  
 
