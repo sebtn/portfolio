@@ -32,6 +32,8 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 gem 'sprockets', '2.11.0'
 
+gem 'heroku-deflater', :group => :production
+
 gem 'rails_12factor', group: :production
 
 
