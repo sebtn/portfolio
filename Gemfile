@@ -32,7 +32,7 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 gem 'sprockets', '2.11.0'
 
-gem 'jquery-ui-rails'
+gem 'heroku-deflater', :group => :production
 
 
 group :doc do
