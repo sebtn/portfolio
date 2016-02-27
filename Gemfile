@@ -36,6 +36,7 @@ gem 'heroku-deflater', :group => :production
 
 gem 'rails_12factor', group: :production
 
+gem 'jquery-ui-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
