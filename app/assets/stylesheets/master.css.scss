@@ -18,6 +18,11 @@ header {
   background-size: cover;
 }
 
+section {
+	background-color: #E7E7E7;
+	margin-top:0; 
+}
+
 #navbar-collapse{
 	border-color: #fff;
 	margin-left: -30px;
@@ -79,7 +84,7 @@ p {
 .jumbotron h2 {
 	font-family: 'blackjackregular';
 	text-shadow: 4px 4px #000000;
-	font-size: 65px;
+	font-size: 60px;
 }
 
 .gi-2x{font-size: 2em;}
@@ -110,6 +115,7 @@ p {
 .progress {
 	margin: 0.5em 1.5em 0.5em 1.5em;
 	height: 10px;	
+	background-color: #E7E7E7;
 }
 
 .experience-unit {
@@ -119,6 +125,12 @@ p {
 
 .experience-unit p {
 	margin-bottom: 1em;
+}
+
+.experience-unit .lady-photo,
+.experience-unit .hose-photo {
+	margin-top: 1.5em;
+
 }
 
 .lady-look {
