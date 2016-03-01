@@ -10,7 +10,7 @@ html, body {
 }
 
 header {
-	background: url('51H.jpg') no-repeat center fixed;
+	background: url('51H.jpg') no-repeat center center;
 	height: 650px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -130,8 +130,13 @@ p {
 .experience-unit .lady-photo,
 .experience-unit .hose-photo {
 	margin-top: 1.5em;
-
 }
+
+.img-thumbnail {
+	-webkit-box-shadow: 0 8px 6px -6px #111111;
+	-moz-box-shadow: 0 8px 6px -6px #111111;
+	box-shadow: 0 8px 6px -6px #111111;
+}	
 
 .lady-look {
 	text-align:right;
