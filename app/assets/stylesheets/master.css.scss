@@ -23,6 +23,12 @@ section {
 	margin-top:0; 
 }
 
+section .work {
+	-webkit-box-shadow: 0 12px 6px -6px #111111;
+	-moz-box-shadow: 0 12px 6px -6px #111111;
+	box-shadow: 0 12px 6px -6px #111111;
+}
+
 #navbar-collapse{
 	border-color: #fff;
 	margin-left: -30px;
@@ -132,11 +138,18 @@ p {
 	margin-top: 1.5em;
 }
 
-.img-thumbnail {
+.img-thumbnail,
+	.hose-photo {
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
 	-moz-box-shadow: 0 8px 6px -6px #111111;
 	box-shadow: 0 8px 6px -6px #111111;
+	border: 2px solid black;
 }	
+
+.hose-photo h3 {
+	font-weight:100;
+
+}
 
 .lady-look {
 	text-align:right;
@@ -209,7 +222,7 @@ p {
   text-transform: uppercase;
   background: none;
   border: 0px solid #fff;
-  color: #fff;
+  color: #D3145A;
   transition: all 0.5s;  
   display: inline-block;
 }
